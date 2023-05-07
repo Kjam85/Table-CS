@@ -1,0 +1,60 @@
+h1 {
+    margin-top: 40px;
+}
+.heading-top {
+    text-align: center;
+    background-color: #4b0082;
+    color: #96c;
+    padding: 5px;
+
+}
+a:hover{
+    color: #e19cf6;
+}
+body {
+     background-color: #7d95be;
+}
+
+header {
+    text-align: center;
+    font-family: "Sigmar", serif;
+    color: #4b0082;
+    text-decoration: underline;
+    max-width: fit-content;
+    margin: 15px auto;
+}
+@font-face {
+  font-family: 'Sigmar';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sigmar/v3/hv-XlzJgIE8a85pkamw2EzJwVw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+h3 {
+    color: #4b0082;
+    background-color: #96c;
+}
+
+h2 {
+    color: #e19cf6;
+}
+
+td {
+    color: #e19cf6;
+    border-bottom: 1px solid #96c;
+    font-family: "Montserrat", serif;
+    padding: 5px;
+}
+table {
+    margin: 15px auto;
+    padding: 10px;
+    border: 5px inset #96c;
+}
